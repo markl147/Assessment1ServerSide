@@ -31,7 +31,6 @@
             <td><c:out value="${house.owner}" default="Name unknown"/></td>
             <td><c:out value="${house.address}" default="Address unknown"/></td>
             <td><c:out value="${house.numRooms}" default="0"/></td>
-            <br>
         </tr>
     </c:forEach>
 </table>

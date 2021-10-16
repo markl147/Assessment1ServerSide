@@ -31,6 +31,15 @@ public class ListHousesServlet extends HttpServlet {
         String address = request.getParameter("address");
         String numRooms = request.getParameter("numRooms");
 
+        if(owner == "")
+            owner = null;
+
+        if(address == "")
+            address = null;
+
+        if(numRooms == "")
+            numRooms = null;
+
         House newEntry = new House(owner, address, numRooms);
         hdao.addNewHouse(newEntry);
 
