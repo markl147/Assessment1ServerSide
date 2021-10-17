@@ -31,6 +31,7 @@ public class ListHousesServlet extends HttpServlet {
         String address = request.getParameter("address");
         String numRooms = request.getParameter("numRooms");
 
+        //not sure if this is right
         if(owner == "")
             owner = null;
 
