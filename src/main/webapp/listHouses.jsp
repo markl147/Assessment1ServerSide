@@ -28,7 +28,7 @@
 
     <c:forEach items="${myHouseList}" var="house">
         <tr>
-            <td><c:out value="${house.owner}" default="Name unknown"/></td>
+            <td><c:out value="${house.name}" default="Name unknown"/></td>
             <td><c:out value="${house.address}" default="Address unknown"/></td>
             <td><c:out value="${house.numRooms}" default="0"/></td>
         </tr>

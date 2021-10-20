@@ -32,6 +32,15 @@ public class HouseServlet extends HttpServlet {
         String address = request.getParameter("address");
         String numRooms = request.getParameter("numRooms");
 
+        if(name.equals(""))
+            name = null;
+
+        if(address.equals(""))
+            address = null;
+
+        if(numRooms.equals(""))
+            numRooms = null;
+
         House h1 = new House(name, address, numRooms);
 
         request.setAttribute("myHouse", h1);

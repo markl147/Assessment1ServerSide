@@ -9,7 +9,7 @@ public class HouseDAO {
     private List<House> houses = new ArrayList();
 
     public HouseDAO() {
-        House h2 = new House("Ray", "Clara", "5");
+        House h2 = new House("Ray", "Clara", "10");
         House h3 = new House("Jack", "Tullowickey", "4");
         House h4 = new House("Ben", "Moate", "7");
 
