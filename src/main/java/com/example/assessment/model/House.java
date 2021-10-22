@@ -2,22 +2,22 @@ package com.example.assessment.model;
 
 public class House {
 
-    private String owner;
+    private String name;
     private String address;
     private String numRooms;
 
-    public House(String owner, String address, String numRooms) {
-        this.owner = owner;
+    public House(String name, String address, String numRooms) {
+        this.name = name;
         this.address = address;
         this.numRooms = numRooms;
     }
 
-    public String getOwner() {
-        return owner;
+    public String getName() {
+        return name;
     }
 
-    public void setOwner(String owner) {
-        this.owner = owner;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getAddress() {
