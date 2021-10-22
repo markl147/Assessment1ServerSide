@@ -12,7 +12,6 @@
     <title>Title</title>
 </head>
 <body>
-
 <table>
     <th>
         Owner :
@@ -34,6 +33,5 @@
         </tr>
     </c:forEach>
 </table>
-
 </body>
 </html>

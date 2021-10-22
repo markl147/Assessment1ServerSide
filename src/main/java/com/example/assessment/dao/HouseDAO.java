@@ -1,6 +1,6 @@
 package com.example.assessment.dao;
 
-import com.example.assessment.House;
+import com.example.assessment.model.House;
 
 import java.util.ArrayList;
 import java.util.List;

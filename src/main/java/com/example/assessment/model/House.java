@@ -1,4 +1,4 @@
-package com.example.assessment;
+package com.example.assessment.model;
 
 public class House {
 

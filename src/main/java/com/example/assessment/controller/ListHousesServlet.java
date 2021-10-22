@@ -1,6 +1,6 @@
 package com.example.assessment.controller;
 
-import com.example.assessment.House;
+import com.example.assessment.model.House;
 import com.example.assessment.dao.HouseDAO;
 
 import javax.servlet.*;
@@ -32,13 +32,13 @@ public class ListHousesServlet extends HttpServlet {
         String numRooms = request.getParameter("numRooms");
 
         //not sure if this is right
-        if(owner == "")
+        if(owner.equals(""))
             owner = null;
 
-        if(address == "")
+        if(address.equals(""))
             address = null;
 
-        if(numRooms == "")
+        if(numRooms.equals(""))
             numRooms = null;
 
         House newEntry = new House(owner, address, numRooms);

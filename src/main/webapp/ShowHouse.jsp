@@ -13,9 +13,9 @@
 </head>
 <body>
 
-Owners: <c:out value="${myHouse.owner}"/> <br>
-Address: <c:out value="${myHouse.address}"/> <br>
-Number of rooms: <c:out value="${myHouse.numRooms}"/> <br>
+Owners: <c:out value="${myHouse.owner}" default="Name unknown"/> <br>
+Address: <c:out value="${myHouse.address}" default="Address unknown"/> <br>
+Number of rooms: <c:out value="${myHouse.numRooms}" default="0"/> <br>
 
 </body>
 </html>
